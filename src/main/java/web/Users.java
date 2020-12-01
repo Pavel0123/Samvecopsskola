@@ -10,13 +10,15 @@ public class Users {
         this.password = password;
     };
 
-    public String getUsername() {
-        return  username;
-    }
-
     public String renameUser(String newUsername) {
         return username = newUsername;
     }
 }
+
+    public String getUsername() {
+        return  username;
+    }
+
+
 
 
